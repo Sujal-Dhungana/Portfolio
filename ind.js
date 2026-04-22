@@ -23,7 +23,7 @@ function createPie() {
     data: {
       labels: ["Frontend","Roblox","Unity","Godot"],
       datasets: [{
-        data: [60,15,05,20],
+        data: [30,45,05,20],
         backgroundColor: ["#3b82f6","#a855f7","#22c55e","#f97316"]
       }]
     },
