@@ -68,7 +68,7 @@ function createBar() {
     data: {
       labels: ["Projects", "Clients", "Satisfaction"],
       datasets: [{
-        data: [50, 20, 95],
+        data: [20, 5, 90],
         backgroundColor: ["#ffffff", "#d4af37", "#8b6a24"],
         borderRadius: 14,
         borderSkipped: false
