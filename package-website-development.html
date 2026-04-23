@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Development Packages</title>
+<link rel="stylesheet" href="package-pages.css">
+</head>
+<body>
+
+<div class="page-glow"></div>
+
+<header class="package-nav">
+  <a class="back-link" href="index.html#packages">Back to Packages</a>
+  <div class="package-logo">SUJAL</div>
+  <a class="home-link" href="index.html">Home</a>
+</header>
+
+<main class="package-main">
+  <section class="package-hero">
+    <div class="package-hero-copy">
+      <p class="page-kicker">My Packages</p>
+      <h1>Website Development</h1>
+      <p class="package-description">
+        Premium websites designed to look refined, feel modern, and represent your brand with confidence.
+      </p>
+
+      <div class="package-tags">
+        <span>Responsive Layouts</span>
+        <span>Premium Styling</span>
+        <span>Clean Frontend Structure</span>
+      </div>
+    </div>
+
+    <div class="package-summary-card">
+      <p class="summary-label">Service Overview</p>
+      <div class="summary-list">
+        <div class="summary-item">
+          <h3>Built for impact</h3>
+          <p>Designed for portfolios, personal brands, startups, and businesses that want a polished presence.</p>
+        </div>
+        <div class="summary-item">
+          <h3>Tiered growth</h3>
+          <p>Basic, Intermediate, and Advanced options let you scale from a clean start to a premium signature build.</p>
+        </div>
+        <div class="summary-item">
+          <h3>Discord-first booking</h3>
+          <p>Once you generate your request, message me on Discord first to confirm the work and payment flow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing-section">
+    <div class="pricing-header">
+      <h2>Pricing Tiers</h2>
+      <p>Each level adds more structure, more visual refinement, and more overall scope than the previous one.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <article class="tier-card">
+        <p class="tier-badge">Basic</p>
+        <h3>Starter Presence</h3>
+        <div class="tier-price">$299 <span>starting</span></div>
+        <p class="tier-description">A clean and professional entry package for a focused website presence.</p>
+        <ul class="tier-list">
+          <li>Up to 3 sections or pages</li>
+          <li>Responsive layout</li>
+          <li>Premium hero section</li>
+          <li>Basic contact section</li>
+          <li>Minor visual customization</li>
+        </ul>
+        <button class="tier-cta select-tier" type="button" data-service="Website Development" data-tier="Basic" data-price="$299">Select Basic</button>
+      </article>
+
+      <article class="tier-card featured">
+        <p class="tier-badge">Intermediate</p>
+        <h3>Business Upgrade</h3>
+        <div class="tier-price">$649 <span>starting</span></div>
+        <p class="tier-description">A stronger website build with more sections, more custom structure, and more polished visuals.</p>
+        <ul class="tier-list">
+          <li>Up to 6 sections or pages</li>
+          <li>Custom content layout</li>
+          <li>Interactive cards and motion</li>
+          <li>Gallery or showcase section</li>
+          <li>More detailed styling system</li>
+        </ul>
+        <button class="tier-cta select-tier" type="button" data-service="Website Development" data-tier="Intermediate" data-price="$649">Select Intermediate</button>
+      </article>
+
+      <article class="tier-card">
+        <p class="tier-badge">Advanced</p>
+        <h3>Premium Signature Build</h3>
+        <div class="tier-price">$1299 <span>starting</span></div>
+        <p class="tier-description">A fully premium website direction with high-end structure, visual depth, and stronger detailing.</p>
+        <ul class="tier-list">
+          <li>Large multi-section or multi-page build</li>
+          <li>Advanced visual direction</li>
+          <li>Premium interactions and sections</li>
+          <li>Service or package page structure</li>
+          <li>Priority refinement pass</li>
+        </ul>
+        <button class="tier-cta select-tier" type="button" data-service="Website Development" data-tier="Advanced" data-price="$1299">Select Advanced</button>
+      </article>
+    </div>
+  </section>
+
+  <section id="payment" class="payment-section">
+    <div class="pricing-header">
+      <h2>Payment Request</h2>
+      <p>Select a tier, choose your payment method, and generate a request you can send on Discord.</p>
+    </div>
+
+    <div class="payment-grid">
+      <div class="payment-card">
+        <p class="summary-label">Request Form</p>
+        <form class="payment-form">
+          <div class="form-grid">
+            <label class="field-label">
+              <span>Full Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+
+            <label class="field-label">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="your@email.com" required>
+            </label>
+          </div>
+
+          <div class="form-grid">
+            <label class="field-label">
+              <span>Discord Username</span>
+              <input type="text" name="discord" placeholder="Your Discord username" required>
+            </label>
+
+            <label class="field-label">
+              <span>Service</span>
+              <input type="text" name="service" value="Website Development" readonly>
+            </label>
+          </div>
+
+          <div class="form-grid">
+            <label class="field-label">
+              <span>Selected Tier</span>
+              <input type="text" name="tier" placeholder="Choose a tier above" readonly required>
+            </label>
+
+            <label class="field-label">
+              <span>Price</span>
+              <input type="text" name="price" placeholder="Select a tier first" readonly required>
+            </label>
+          </div>
+
+          <div class="field-label">
+            <span>Preferred Payment Method</span>
+            <div class="method-grid">
+              <label class="method-option">
+                <input type="radio" name="paymentMethod" value="eSewa" required>
+                <span>eSewa</span>
+              </label>
+              <label class="method-option">
+                <input type="radio" name="paymentMethod" value="Khalti" required>
+                <span>Khalti</span>
+              </label>
+              <label class="method-option">
+                <input type="radio" name="paymentMethod" value="PayPal" required>
+                <span>PayPal</span>
+              </label>
+              <label class="method-option">
+                <input type="radio" name="paymentMethod" value="Card / Stripe" required>
+                <span>Card / Stripe</span>
+              </label>
+            </div>
+          </div>
+
+          <label class="field-label">
+            <span>Project Notes</span>
+            <textarea name="notes" placeholder="Tell me about the website style, pages, sections, or goals you want."></textarea>
+          </label>
+
+          <button class="form-submit" type="submit">Generate Payment Request</button>
+        </form>
+      </div>
+
+      <div class="payment-card">
+        <p class="summary-label">Checkout Summary</p>
+        <div id="summaryOutput" class="summary-output">Select a tier above, choose your payment method, and generate your request.</div>
+
+        <div class="payment-actions">
+          <button id="copyForDiscord" class="payment-action" type="button" disabled>Copy for Discord</button>
+          <a id="emailFallback" class="payment-action secondary" href="mailto:sujaldhungana31@gmail.com">Email Backup</a>
+        </div>
+
+        <p class="payment-note">To confirm a package, contact me on Discord first (recommended): <strong>godly.god</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="package-footer">
+    <div class="package-footer-copy">
+      <h3>Ready to move forward?</h3>
+      <p>Choose a tier, generate your request, then send it on Discord first so we can confirm the package clearly.</p>
+    </div>
+
+    <div class="package-contact-links">
+      <a class="package-contact-link" href="https://discord.com/app" target="_blank" rel="noreferrer">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20 4a16 16 0 0 0-4-1l-.5 1A15 15 0 0 0 12 4a15 15 0 0 0-3.5.5l-.5-1a16 16 0 0 0-4 1C2 9 2 15 2 15a16 16 0 0 0 6 3l1-2a10 10 0 0 1-3-1 8 8 0 0 0 6 2 8 8 0 0 0 6-2 10 10 0 0 1-3 1l1 2a16 16 0 0 0 6-3s0-6-2-11z"/></svg>
+        <div>
+          <strong>Discord</strong>
+          <span>godly.god</span>
+        </div>
+      </a>
+      <a class="package-contact-link" href="mailto:sujaldhungana31@gmail.com">
+        <svg viewBox="0 0 24 24"><path d="M2 5h20v14H2z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 6l10 8 10-8" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <div>
+          <strong>Email</strong>
+          <span>sujaldhungana31@gmail.com</span>
+        </div>
+      </a>
+      <a class="package-contact-link" href="https://github.com/Sujal-Dhungana" target="_blank" rel="noreferrer">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5A12 12 0 0 0 0 12.7a12 12 0 0 0 8.2 11.6c.6.1.8-.3.8-.6v-2.3c-3.3.7-4-1.4-4-1.4-.6-1.6-1.4-2-1.4-2-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.4-5.6-6.2 0-1.4.5-2.5 1.3-3.4-.1-.3-.6-1.7.1-3.4 0 0 1-.3 3.5 1.3a12 12 0 0 1 6.4 0c2.5-1.6 3.5-1.3 3.5-1.3.7 1.7.2 3.1.1 3.4.8.9 1.3 2 1.3 3.4 0 4.8-2.9 5.9-5.7 6.2.4.4.8 1 .8 2.1v3.1c0 .3.2.7.8.6A12 12 0 0 0 24 12.7 12 12 0 0 0 12 .5z"/></svg>
+        <div>
+          <strong>GitHub</strong>
+          <span>Sujal-Dhungana</span>
+        </div>
+      </a>
+    </div>
+  </footer>
+</main>
+
+<script src="package-pages.js"></script>
+</body>
+</html>

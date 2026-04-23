@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="bg-glow"></div>
+
+<header class="navbar">
+  <div class="logo">SUJAL</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#my-project">My Project</a>
+    <a href="#packages">My Packages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <video class="hero-video" autoplay muted loop playsinline poster="images/hero-poster.jpg">
+    <source src="https://www.pexels.com/download/video/17695379/" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-grid">
+    <div class="hero-copy reveal-item">
+      <h1>Sujal Dhungana</h1>
+      <p class="hero-meta">Premium Digital Portfolio</p>
+      <p class="hero-subline">Website development. Ui/Ux design. Game development.</p>
+
+      <div class="hero-pills">
+        <span>Premium Style</span>
+        <span>Clean Frontend</span>
+        <span>Creative Systems</span>
+      </div>
+
+      <div class="hero-cta">
+        <a class="hero-button hero-button-primary" href="#packages">View Packages</a>
+        <a class="hero-button hero-button-secondary" href="#contact">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal-item">
+      <div class="hero-profile-frame">
+        <img src="images/profile-hero.jpg" alt="Sujal Dhungana profile photo">
+      </div>
+
+      <div class="hero-availability-badge">
+        <p>Discord First</p>
+        <strong>godly.god</strong>
+        <span>Best way to contact me</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about-section">
+  <div class="about-shell">
+    <div class="about-copy reveal-item">
+      <p class="section-kicker">About</p>
+      <h2 class="section-title section-title-left">Design-minded development with a premium execution style</h2>
+      <p class="about-lead">
+        I am Sujal Dhungana, a frontend and game developer focused on creating work that looks refined, feels smooth,
+        and communicates quality from the first second.
+      </p>
+      <p class="about-text">
+        My approach combines clean code, strong layout structure, polished UI, and a creative eye for detail. Whether I
+        am designing a website, shaping a product interface, or building a game system, the goal stays the same:
+        deliver something memorable, modern, and professionally finished.
+      </p>
+    </div>
+
+    <div class="about-grid">
+      <article class="about-card reveal-item">
+        <p class="about-card-kicker">Focus</p>
+        <h3>Premium Presentation</h3>
+        <p>I build portfolios, websites, and interfaces that feel elevated instead of generic.</p>
+      </article>
+
+      <article class="about-card reveal-item">
+        <p class="about-card-kicker">Strength</p>
+        <h3>Frontend Clarity</h3>
+        <p>Layouts, interactions, and visual rhythm are planned carefully so every section feels intentional.</p>
+      </article>
+
+      <article class="about-card reveal-item">
+        <p class="about-card-kicker">Creative Range</p>
+        <h3>Web, UI, and Games</h3>
+        <p>I move comfortably between websites, UI systems, and gameplay-focused development workflows.</p>
+      </article>
+
+      <article class="about-card reveal-item">
+        <p class="about-card-kicker">Work Style</p>
+        <h3>Sharp and Reliable</h3>
+        <p>I care about both visual quality and execution, so the final work feels polished and production-ready.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="section">
+  <h2 class="section-title reveal-item">Work Distribution</h2>
+
+  <div class="chart-layout">
+    <div class="chart-box">
+      <canvas id="pieChart"></canvas>
+    </div>
+
+    <div class="chart-info reveal-item">
+      <h3>What I Do</h3>
+      <p><span>Frontend:</span> UI systems, motion, and responsive layouts</p>
+      <p><span>Roblox:</span> Gameplay systems and scripting flow</p>
+      <p><span>Unity:</span> Scene logic and interactive mechanics</p>
+      <p><span>Godot:</span> Lightweight builds and prototype creation</p>
+    </div>
+  </div>
+
+  <h2 class="section-subtitle reveal-item">Average Performance</h2>
+
+  <div class="bar-center reveal-item">
+    <canvas id="barChart"></canvas>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2 class="section-title reveal-item">Projects</h2>
+
+  <div class="project-grid">
+    <div class="project-card reveal-item">
+      <h3>Roblox System</h3>
+      <p>Advanced gameplay mechanics, scripting structure, and polished player-facing UI systems.</p>
+    </div>
+
+    <div class="project-card reveal-item">
+      <h3>Unity Game</h3>
+      <p>Interactive movement, scene flow, and premium-feeling build logic for gameplay experiences.</p>
+    </div>
+
+    <div class="project-card reveal-item">
+      <h3>Godot Build</h3>
+      <p>Fast prototypes and lightweight game ideas shaped into clean, playable development builds.</p>
+    </div>
+
+    <div class="project-card reveal-item">
+      <h3>Web Apps</h3>
+      <p>Full-stack style interfaces, dashboard layouts, and modern frontend systems with a premium look.</p>
+    </div>
+  </div>
+</section>
+
+<section id="my-project" class="section my-project-section">
+  <div class="feature-shell reveal-item">
+    <div class="feature-copy">
+      <p class="feature-kicker">My Project</p>
+      <h2 class="feature-title">Featured work built around design, gameplay, and clean frontend structure</h2>
+      <p class="feature-text">
+        I enjoy creating projects that feel polished from the first interaction, whether that means a responsive website,
+        a smooth portfolio experience, or systems for game prototypes.
+      </p>
+
+      <div class="feature-tags">
+        <span>Responsive UI</span>
+        <span>Gameplay Systems</span>
+        <span>Modern Layouts</span>
+      </div>
+    </div>
+
+    <div class="feature-panel">
+      <div class="feature-status">Featured Now</div>
+      <h3>Portfolio and Creative Build Lab</h3>
+      <p>
+        A focused space for combining web design, interface motion, and game development ideas into one strong personal
+        showcase.
+      </p>
+
+      <div class="feature-stats">
+        <div>
+          <strong>04</strong>
+          <span>Core skill areas</span>
+        </div>
+        <div>
+          <strong>80%</strong>
+          <span>Focused project time</span>
+        </div>
+        <div>
+          <strong>95%</strong>
+          <span>Quality goal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-gallery-intro reveal-item">
+    <p class="gallery-kicker">Project Gallery</p>
+    <h3>Image-ready cards for your featured work</h3>
+    <p>Replace each placeholder image with your own screenshot, poster, or project preview.</p>
+  </div>
+
+  <div class="project-gallery-grid">
+    <article class="project-gallery-card reveal-item">
+      <img class="project-gallery-image" src="images/project-placeholder.svg" alt="Project image placeholder" loading="lazy">
+      <div class="project-gallery-body">
+        <p class="project-gallery-label">Project 01</p>
+        <h3>Website Showcase</h3>
+        <p>Add your website screenshot here and write a short summary about the design, stack, and result.</p>
+      </div>
+    </article>
+
+    <article class="project-gallery-card reveal-item">
+      <img class="project-gallery-image" src="images/project-placeholder.svg" alt="Project image placeholder" loading="lazy">
+      <div class="project-gallery-body">
+        <p class="project-gallery-label">Project 02</p>
+        <h3>Game System Build</h3>
+        <p>Use this card for a Roblox, Unity, or Godot project image with a quick description underneath.</p>
+      </div>
+    </article>
+
+    <article class="project-gallery-card reveal-item">
+      <img class="project-gallery-image" src="images/project-placeholder.svg" alt="Project image placeholder" loading="lazy">
+      <div class="project-gallery-body">
+        <p class="project-gallery-label">Project 03</p>
+        <h3>UI or App Concept</h3>
+        <p>Drop in an interface preview here and explain what makes the project polished, useful, or unique.</p>
+      </div>
+    </article>
+  </div>
+
+  <div class="mini-grid">
+    <article class="mini-card reveal-item">
+      <h3>Website Builds</h3>
+      <p>Responsive pages with smooth layouts, strong visual hierarchy, and a clean presentation on any screen.</p>
+    </article>
+
+    <article class="mini-card reveal-item">
+      <h3>Game Prototypes</h3>
+      <p>Playable concepts that explore movement, systems, and interaction loops for Roblox, Unity, and Godot.</p>
+    </article>
+
+    <article class="mini-card reveal-item">
+      <h3>UI Experiments</h3>
+      <p>Interface concepts that mix animation, cards, charts, and modern portfolio styling into practical designs.</p>
+    </article>
+  </div>
+</section>
+
+<section id="packages" class="section packages-section">
+  <p class="section-kicker reveal-item">My Packages</p>
+  <h2 class="section-title reveal-item">Choose the service lane that fits your project</h2>
+  <p class="packages-copy reveal-item">
+    Each package card opens a dedicated pricing page with Basic, Intermediate, and Advanced options, plus a payment
+    request system that leads straight into Discord-first contact.
+  </p>
+
+  <div class="packages-grid">
+    <a class="package-card reveal-item" href="package-website-development.html">
+      <p class="package-card-kicker">My Packages</p>
+      <h3>Website Development</h3>
+      <p>Premium websites, landing pages, and polished business builds tailored to your brand and goals.</p>
+      <div class="package-card-tags">
+        <span>Basic</span>
+        <span>Intermediate</span>
+        <span>Advanced</span>
+      </div>
+      <span class="package-card-link">Open pricing page</span>
+    </a>
+
+    <a class="package-card reveal-item" href="package-ui-ux-designs.html">
+      <p class="package-card-kicker">My Packages</p>
+      <h3>Ui/Ux Designs</h3>
+      <p>Clean, modern interfaces with structured flows, thoughtful layouts, and premium visual direction.</p>
+      <div class="package-card-tags">
+        <span>Basic</span>
+        <span>Intermediate</span>
+        <span>Advanced</span>
+      </div>
+      <span class="package-card-link">Open pricing page</span>
+    </a>
+
+    <a class="package-card reveal-item" href="package-game-development.html">
+      <p class="package-card-kicker">My Packages</p>
+      <h3>Game Development</h3>
+      <p>Gameplay systems, mechanics, prototypes, and creative builds for immersive interactive projects.</p>
+      <div class="package-card-tags">
+        <span>Basic</span>
+        <span>Intermediate</span>
+        <span>Advanced</span>
+      </div>
+      <span class="package-card-link">Open pricing page</span>
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title reveal-item">Performance & Trust</h2>
+
+  <div class="progress-wrap">
+    <div class="progress-item reveal-item">
+      <p>Customer Satisfaction</p>
+      <div class="bar"><span style="--w:95%"></span></div>
+    </div>
+
+    <div class="progress-item reveal-item">
+      <p>Project Success Rate</p>
+      <div class="bar"><span style="--w:90%"></span></div>
+    </div>
+
+    <div class="progress-item reveal-item">
+      <p>On-Time Delivery</p>
+      <div class="bar"><span style="--w:85%"></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title reveal-item">Availability</h2>
+
+  <div class="time-box reveal-item">
+    <h3>I can dedicate</h3>
+    <div class="time-bar">
+      <span style="--w:80%"></span>
+    </div>
+    <p>~80% focused project time with flexible scheduling for quality delivery.</p>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <p class="section-kicker reveal-item">Contact</p>
+  <h2 class="section-title reveal-item">Contact me on Discord first</h2>
+  <p class="contact-copy reveal-item">
+    If you want to work with me, ask about pricing, or confirm a package, contact me on Discord first. Email is a
+    backup option, and GitHub is here if you want to see more of my work.
+  </p>
+
+  <div class="contact-links">
+    <a class="contact-link-card reveal-item" href="https://discord.com/app" target="_blank" rel="noreferrer">
+      <span class="contact-link-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path fill="currentColor" d="M20 4a16 16 0 0 0-4-1l-.5 1A15 15 0 0 0 12 4a15 15 0 0 0-3.5.5l-.5-1a16 16 0 0 0-4 1C2 9 2 15 2 15a16 16 0 0 0 6 3l1-2a10 10 0 0 1-3-1 8 8 0 0 0 6 2 8 8 0 0 0 6-2 10 10 0 0 1-3 1l1 2a16 16 0 0 0 6-3s0-6-2-11z"/>
+        </svg>
+      </span>
+      <div>
+        <strong>Discord (Recommended)</strong>
+        <span>godly.god</span>
+      </div>
+    </a>
+
+    <a class="contact-link-card reveal-item" href="mailto:sujaldhungana31@gmail.com">
+      <span class="contact-link-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M2 5h20v14H2z" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M2 6l10 8 10-8" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <div>
+        <strong>Email</strong>
+        <span>sujaldhungana31@gmail.com</span>
+      </div>
+    </a>
+
+    <a class="contact-link-card reveal-item" href="https://github.com/Sujal-Dhungana" target="_blank" rel="noreferrer">
+      <span class="contact-link-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12 .5A12 12 0 0 0 0 12.7a12 12 0 0 0 8.2 11.6c.6.1.8-.3.8-.6v-2.3c-3.3.7-4-1.4-4-1.4-.6-1.6-1.4-2-1.4-2-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.4-5.6-6.2 0-1.4.5-2.5 1.3-3.4-.1-.3-.6-1.7.1-3.4 0 0 1-.3 3.5 1.3a12 12 0 0 1 6.4 0c2.5-1.6 3.5-1.3 3.5-1.3.7 1.7.2 3.1.1 3.4.8.9 1.3 2 1.3 3.4 0 4.8-2.9 5.9-5.7 6.2.4.4.8 1 .8 2.1v3.1c0 .3.2.7.8.6A12 12 0 0 0 24 12.7 12 12 0 0 0 12 .5z"/>
+        </svg>
+      </span>
+      <div>
+        <strong>GitHub</strong>
+        <span>github.com/Sujal-Dhungana</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <h3>SUJAL</h3>
+    <p>Premium digital work across websites, UI/UX, and game development.</p>
+  </div>
+
+  <div class="footer-socials">
+    <a class="footer-social" href="https://discord.com/app" target="_blank" rel="noreferrer" aria-label="Discord">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M20 4a16 16 0 0 0-4-1l-.5 1A15 15 0 0 0 12 4a15 15 0 0 0-3.5.5l-.5-1a16 16 0 0 0-4 1C2 9 2 15 2 15a16 16 0 0 0 6 3l1-2a10 10 0 0 1-3-1 8 8 0 0 0 6 2 8 8 0 0 0 6-2 10 10 0 0 1-3 1l1 2a16 16 0 0 0 6-3s0-6-2-11z"/>
+      </svg>
+    </a>
+    <a class="footer-social" href="mailto:sujaldhungana31@gmail.com" aria-label="Email">
+      <svg viewBox="0 0 24 24">
+        <path d="M2 5h20v14H2z" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M2 6l10 8 10-8" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </a>
+    <a class="footer-social" href="https://github.com/Sujal-Dhungana" target="_blank" rel="noreferrer" aria-label="GitHub">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 .5A12 12 0 0 0 0 12.7a12 12 0 0 0 8.2 11.6c.6.1.8-.3.8-.6v-2.3c-3.3.7-4-1.4-4-1.4-.6-1.6-1.4-2-1.4-2-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.6-1.4-5.6-6.2 0-1.4.5-2.5 1.3-3.4-.1-.3-.6-1.7.1-3.4 0 0 1-.3 3.5 1.3a12 12 0 0 1 6.4 0c2.5-1.6 3.5-1.3 3.5-1.3.7 1.7.2 3.1.1 3.4.8.9 1.3 2 1.3 3.4 0 4.8-2.9 5.9-5.7 6.2.4.4.8 1 .8 2.1v3.1c0 .3.2.7.8.6A12 12 0 0 0 24 12.7 12 12 0 0 0 12 .5z"/>
+      </svg>
+    </a>
+  </div>
+
+  <p class="footer-note">For packages and payments, contact me on Discord [Recommended]: <strong>godly.god</strong></p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
