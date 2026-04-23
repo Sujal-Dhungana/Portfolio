@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="section">
+  <h2 class="section-title">All Projects</h2>
+
+  <div class="project-gallery-grid">
+
+    <img class="project-gallery-image" src="images/gallery (1).png">
+    <img class="project-gallery-image" src="images/gallery (2).png">
+    <img class="project-gallery-image" src="images/gallery (3).png">
+    <img class="project-gallery-image" src="images/gallery (4).png">
+    <img class="project-gallery-image" src="images/gallery (5).png">
+
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox hidden">
+  <div class="lightbox-content">
+
+    <div class="lightbox-main">
+      <img id="lightboxMainImg">
+    </div>
+
+    <div class="lightbox-thumbs" id="lightboxThumbs"></div>
+
+  </div>
+
+  <span class="lightbox-close" id="lightboxClose">&times;</span>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
